@@ -49,7 +49,7 @@ export default class index extends React.Component {
           </div>
       
           <div id="seccao2">
-            <h2>QUEM SOU EU?</h2>
+            <h2 className="qse1">QUEM SOU EU?</h2>
             <p className="qse">
               Eu sou um estudante em informatica na Universidade do Mindelo.
               Adoro explorar novas tecnologias e muitas vezes impressionado com
@@ -63,7 +63,7 @@ export default class index extends React.Component {
               <div id="MainCard">
                 <div id="card">
                   <div id="cardInf">
-                    <h3> Web Developer</h3>
+                    <h3> Web </h3>
                     <p>
                       Tenho experiência na criação de sites e extensões de cromo
                       usando JavaScript, React, HTML, CSS
@@ -95,7 +95,7 @@ export default class index extends React.Component {
           </div>
 
           <div id="seccion3">
-            <h2> CRONOLOGIA</h2>
+            <h2 className="qse1"> CRONOLOGIA</h2>
             <div id="mainCrono">
               <div id="mainCronoText">
                 <h3>Estagio na Universidade do Mindelo</h3>

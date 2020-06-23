@@ -40,7 +40,7 @@ export default class nav extends Component {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                duration={600}
+                duration={700}
               >
                 {this.props.li3}
               </Link>
