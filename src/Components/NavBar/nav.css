@@ -1,0 +1,19 @@
+#navbar ul {
+  display: block;
+  margin-block-start: 1em;
+}
+#navbar li {
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.726);
+  cursor: pointer;
+}
+#navbar {
+  height: 80px;
+  position: sticky;
+}
+
+#navbar ul li .active{ 
+text-decoration: underline black;
+} 
