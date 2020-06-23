@@ -47,7 +47,7 @@ export default class index extends React.Component {
               <button>VER CURRICULO</button>
             </div>
           </div>
-
+      
           <div id="seccao2">
             <h2>QUEM SOU EU?</h2>
             <p className="qse">
@@ -59,7 +59,7 @@ export default class index extends React.Component {
             </p>
 
             <div>
-              <h2> CONHECIMENTOS</h2>
+              <h2 className="qse1"> CONHECIMENTOS</h2>
               <div id="MainCard">
                 <div id="card">
                   <div id="cardInf">
@@ -80,6 +80,7 @@ export default class index extends React.Component {
                     </p>
                   </div>
                 </div>
+
                 <div id="card">
                   <div id="cardInf">
                     <h3>REDES AVANCADAS</h3>
@@ -88,6 +89,7 @@ export default class index extends React.Component {
                     </p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -102,9 +104,18 @@ export default class index extends React.Component {
                   informatica e de simulacao empresarial. Onde tive conhecimento
                   pratico com Redes de compuatdor, sen falar em ter
                   posteriorizado conhecimentos empresarial que nos demonstram o
-                  nosso poder de resolucao em tempo util.{" "}
+                  nosso poder de resolucao em tempo util.
                 </p>
               </div>
+
+              <div id="mainCronoText">
+                <h3>Desenvolver de Conteudo Multimidia da FCV-Federação caboverdiana Voley</h3>
+                <p className="sca">
+                  Sou administrador e desenvolvedor de conteudos Digitais da pagina da Federaçāo do voleibol cabo verde.
+                  Atendendo sou um supervisor tecnico de Voleibol informatico-VIS.
+                </p>
+              </div>
+
 
               <div id="mainCronoText">
                 <h3>Ensino Primario e Secundario</h3>
@@ -113,10 +124,11 @@ export default class index extends React.Component {
                   informatica e de simulacao empresarial. Onde tive conhecimento
                   pratico com Redes de compuatdor, sen falar em ter
                   posteriorizado conhecimentos empresarial que nos demonstram o
-                  nosso poder de resolucao em tempo util.{" "}
+                  nosso poder de resolucao em tempo util.
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </div>

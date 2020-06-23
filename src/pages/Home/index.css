@@ -52,12 +52,12 @@
 #card {
   height: 150px;
   width: 280px;
-  background-color: rgba(199, 193, 193, 0.37);
+  background-color: rgba(230, 233, 230, 0.733);
   float: left;
   text-align: center;
   margin-bottom: 50px;
-  -webkit-box-shadow: -2px 0px 16px 3px rgba(0,0,0,0.75);
-  -moz-box-shadow: -2px 0px 16px 3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.75);
   box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.822);
 }
 #MainCard {
@@ -73,8 +73,8 @@
   height: 150px;
   background-color: rgba(199, 193, 193, 0.37);
   margin-bottom: 20px;
-  -webkit-box-shadow: -2px 0px 16px 3px rgba(0,0,0,0.75);
-  -moz-box-shadow: -2px 0px 16px 3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.75);
   box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.822);
   margin-top: 10px;
 }
@@ -85,19 +85,19 @@
   flex-wrap: wrap;
 }
 
-#menuAp h1{
+#menuAp h1 {
   font-family: Georgia, serif;
 }
 
-h2{
-  font-family: "Playfair Display",Georgia,serif;
-  margin-top:40px;
+h2 {
+  font-family: Arial Verdana;
   margin-bottom: 20px;
   margin-left: 20px;
 }
 
 #seccao1 {
   position: relative;
+  background-color: rgb(207, 202, 202);
 }
 #menuAp {
   position: absolute;
@@ -106,19 +106,31 @@ h2{
   margin: 0;
   left: 18%;
 }
-button{
+button {
   padding: 10px;
   background-color: transparent;
   margin-top: 20px;
   border-radius: 4px;
   border: 1px solid black;
 }
-.qse{
+.qse {
   margin-left: 20px;
   margin-right: 20px;
 }
-
-.sca{
+.sca {
   margin-top: 20px;
   text-align: justify;
+}
+#seccao2 {
+  background-color:  rgba(246, 249, 250, 0.685);
+}
+
+#seccion3 {
+  background-color: rgba(255, 255, 255, 0.418);
+}
+.qse1{
+  margin-top: 10px ;
+  font-family: Arial Verdana;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
