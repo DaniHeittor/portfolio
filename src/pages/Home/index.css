@@ -2,7 +2,7 @@
   width: 300px;
   float: left;
   position: fixed;
-  background: #d8d8d8;
+  background: #9ba0a086;
   background-size: cover;
   height: 100vh;
   padding-top: 1em;
@@ -10,7 +10,7 @@
 #menudih {
   float: right;
   width: calc(100% - 300px);
-  background: #f7f7f7;
+  background: #f7f6f3ef;
   height: 100%;
   overflow-y: scroll;
 }
@@ -52,13 +52,13 @@
 #card {
   height: 150px;
   width: 280px;
-  background-color: white;
+  background-color: rgba(199, 193, 193, 0.37);
   float: left;
   text-align: center;
   margin-bottom: 50px;
   -webkit-box-shadow: -2px 0px 16px 3px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 0px 16px 3px rgba(0,0,0,0.75);
-  box-shadow: -2px 0px 16px 3px purple;
+  box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.822);
 }
 #MainCard {
   display: flex;
@@ -70,9 +70,15 @@
 }
 #mainCronoText {
   width: 80%;
-  background-color: red;
+  height: 150px;
+  background-color: rgba(199, 193, 193, 0.37);
   margin-bottom: 20px;
+  -webkit-box-shadow: -2px 0px 16px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 0px 16px 3px rgba(0,0,0,0.75);
+  box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.822);
+  margin-top: 10px;
 }
+
 #mainCrono {
   justify-content: center;
   display: flex;
@@ -81,7 +87,6 @@
 
 #menuAp h1{
   font-family: Georgia, serif;
-;
 }
 
 h2{
@@ -111,4 +116,9 @@ button{
 .qse{
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.sca{
+  margin-top: 20px;
+  text-align: justify;
 }

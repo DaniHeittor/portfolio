@@ -72,10 +72,21 @@ export default class index extends React.Component {
                 </div>
 
                 <div id="card">
-                  <p>D</p>
+                <div id="cardInf">
+                    <h3>ESTRUTURAS DE DADOS E ALGORITMOS</h3>
+                    <p>
+                    Como proveniente do histórico do CS, 
+                    tenho uma boa compreensão dos conceitos fundamentais
+                    </p>
+                  </div>
                 </div>
                 <div id="card">
-                  <p>G</p>
+                  <div id="cardInf">
+                    <h3>REDES AVANCADAS</h3>
+                    <p>
+                    Tendo disciplinas ligas a Redes,ainda possou um certificado online da cisco-nivel3  
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -86,7 +97,7 @@ export default class index extends React.Component {
             <div id="mainCrono">
               <div id="mainCronoText">
                 <h3>Estagio na Universidade do Mindelo</h3>
-                <p>
+                <p className="sca">
                   No estagio montei e progetei dois laboratorio,um de engenheria
                   informatica e de simulacao empresarial. Onde tive conhecimento
                   pratico com Redes de compuatdor, sen falar em ter
@@ -97,7 +108,7 @@ export default class index extends React.Component {
 
               <div id="mainCronoText">
                 <h3>Ensino Primario e Secundario</h3>
-                <p>
+                <p className="sca">
                   No estagio montei e progetei dois laboratorio,um de engenheria
                   informatica e de simulacao empresarial. Onde tive conhecimento
                   pratico com Redes de compuatdor, sen falar em ter
@@ -108,7 +119,6 @@ export default class index extends React.Component {
             </div>
           </div>
         </div>
-        <div id="teste">sdsad</div>
       </div>
     );
   }
