@@ -27,7 +27,7 @@ export default class nav extends Component {
                 to="seccao2"
                 spy={true}
                 smooth={true}
-                offset={-300}
+                offset={-160}
                 duration={300}
               >
                 {this.props.li2}

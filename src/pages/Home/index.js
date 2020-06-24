@@ -43,13 +43,14 @@ export default class index extends React.Component {
           <div id="seccao1">
             <img className="ImgMain" src={ImgMain} alt=""></img>
             <div id="menuAp">
-              <h1>Oii!! Sou Dani</h1> 
-              <button>VER CURRICULO</button>
+              <h1>Oii!! Sou Dani</h1>
+              <a href="https://docs.google.com/document/d/1aT_dOiy_2vBy78d8vxKJfs-Ff9KXWV3N8ZevKBAvo18/edit?usp=sharing"><button className="buttao">VER CURRICULO</button></a>
             </div>
           </div>
-      
+
           <div id="seccao2">
             <h2 className="qse1">QUEM SOU EU?</h2>
+            
             <p className="qse">
               Eu sou um estudante em informatica na Universidade do Mindelo.
               Adoro explorar novas tecnologias e muitas vezes impressionado com
@@ -72,11 +73,11 @@ export default class index extends React.Component {
                 </div>
 
                 <div id="card">
-                <div id="cardInf">
+                  <div id="cardInf">
                     <h3>ESTRUTURAS DE DADOS E ALGORITMOS</h3>
                     <p>
-                    Como proveniente do histórico do CS, 
-                    tenho uma boa compreensão dos conceitos fundamentais
+                      Como proveniente do histórico do CS, tenho uma boa
+                      compreensão dos conceitos fundamentais
                     </p>
                   </div>
                 </div>
@@ -85,11 +86,11 @@ export default class index extends React.Component {
                   <div id="cardInf">
                     <h3>REDES AVANCADAS</h3>
                     <p>
-                    Tendo disciplinas ligas a Redes,ainda possou um certificado online da cisco-nivel3  
+                      Tendo disciplinas ligas a Redes,ainda possou um
+                      certificado online da cisco-nivel3
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -109,26 +110,29 @@ export default class index extends React.Component {
               </div>
 
               <div id="mainCronoText">
-                <h3>Desenvolver de Conteudo Multimidia da FCV-Federação caboverdiana Voley</h3>
+                <h3>
+                  Desenvolver de Conteudo Multimidia da FCV-Federação
+                  caboverdiana Voley
+                </h3>
                 <p className="sca">
-                  Sou administrador e desenvolvedor de conteudos Digitais da pagina da Federaçāo do voleibol cabo verde.
-                  Atendendo sou um supervisor tecnico de Voleibol informatico-VIS.
+                  Sou administrador e desenvolvedor de conteudos Digitais da
+                  pagina da Federaçāo do voleibol cabo verde. Atendendo sou um
+                  supervisor tecnico de Voleibol informatico-VIS.
                 </p>
               </div>
-
 
               <div id="mainCronoText">
                 <h3>Ensino Primario e Secundario</h3>
                 <p className="sca">
-                  No estagio montei e progetei dois laboratorio,um de engenheria
-                  informatica e de simulacao empresarial. Onde tive conhecimento
-                  pratico com Redes de compuatdor, sen falar em ter
-                  posteriorizado conhecimentos empresarial que nos demonstram o
-                  nosso poder de resolucao em tempo util.
+                  Concluí meu ensino médio com disciplinas importantes como
+                  Física, Utilização e Matemática. Durante meu tempo na escola,
+                  desenvolvi interesse em resolver problemas complexos da física
+                  fundamental que me ajudaram a melhorar minha compreensão de
+                  qualquer problema e também minhas habilidades matemáticas para
+                  realmente resolvê-los.
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
