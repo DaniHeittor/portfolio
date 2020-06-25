@@ -130,6 +130,7 @@ button {
   margin-right: 25px;
 }
 #seccao2 {
+  margin-top: 10px;
   background-color: rgba(246, 249, 250, 0.685);
   margin-bottom: auto;
 }
@@ -139,7 +140,6 @@ button {
   margin-bottom: 10%;
 }
 .qse1 {
-  margin-top: 15px;
   letter-spacing: 0.051em;
   font: normal 1.5em/1.1 OFL Sorts Mill Goudy, Noto Nastaliq Urdu,
     My Noto Nastaliq Urdu, Georgia, serif;
