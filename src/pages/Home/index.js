@@ -44,13 +44,14 @@ export default class index extends React.Component {
             <img className="ImgMain" src={ImgMain} alt=""></img>
             <div id="menuAp">
               <h1>Oii!! Sou Dani</h1>
-              <a href="https://docs.google.com/document/d/1aT_dOiy_2vBy78d8vxKJfs-Ff9KXWV3N8ZevKBAvo18/edit?usp=sharing"><button className="buttao">VER CURRICULO</button></a>
+              <a href="https://docs.google.com/document/d/1aT_dOiy_2vBy78d8vxKJfs-Ff9KXWV3N8ZevKBAvo18/edit?usp=sharing">
+                <button className="buttao">VER CURRICULO</button>
+              </a>
             </div>
           </div>
 
           <div id="seccao2">
             <h2 className="qse1">QUEM SOU EU?</h2>
-            
             <p className="qse">
               Eu sou um estudante em informatica na Universidade do Mindelo.
               Adoro explorar novas tecnologias e muitas vezes impressionado com

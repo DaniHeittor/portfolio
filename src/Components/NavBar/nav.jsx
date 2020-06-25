@@ -39,8 +39,8 @@ export default class nav extends Component {
                 to="seccion3"
                 spy={true}
                 smooth={true}
-                offset={-100}
-                duration={700}
+                offset={-150}
+                duration={1000}
               >
                 {this.props.li3}
               </Link>
