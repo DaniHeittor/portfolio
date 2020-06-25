@@ -73,11 +73,11 @@
   width: 80%;
   height: auto;
   background-color: rgba(199, 193, 193, 0.37);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   -webkit-box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.75);
   box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.822);
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 #mainCrono {
@@ -120,6 +120,8 @@ button {
   -moz-box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.75);
   box-shadow: -2px 0px 16px 3px rgba(0, 0, 0, 0.75);
   text-align: justify;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
 }
 .sca {
   margin-top: 20px;
@@ -134,10 +136,10 @@ button {
 
 #seccion3 {
   background-color: linear-gradient(#747280, #546587, #314960);
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .qse1 {
-  margin-top: 10px;
+  margin-top: 15px;
   letter-spacing: 0.051em;
   font: normal 1.5em/1.1 OFL Sorts Mill Goudy, Noto Nastaliq Urdu,
     My Noto Nastaliq Urdu, Georgia, serif;

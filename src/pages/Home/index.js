@@ -16,8 +16,8 @@ export default class index extends React.Component {
             </div>
             <h1 className="colornome-logo">Dani Rodrigues</h1>
 
-            <i className="far fa-envelope"></i>
-            <span className="email">daniheittorrodrigues@gmail.com</span>
+              <i className="far fa-envelope"></i>
+              <span className="email">daniheittorrodrigues@gmail.com</span>
             <NavBAr
               li1="INTRODUÇÃO"
               li2="SOBRE"
