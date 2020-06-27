@@ -4,6 +4,7 @@ import LogoM from "../../img/IMG_5765.JPG";
 import "@fortawesome/fontawesome-free/css/all.css";
 import NavBAr from "../../Components/NavBar/nav";
 import ImgMain from "../../img/IMG_5856.JPG";
+import PulseText from 'react-pulse-text';
 
 export default class index extends React.Component {
   render() {
@@ -15,9 +16,15 @@ export default class index extends React.Component {
               <img className="LogoM" src={LogoM} alt=""></img>
             </div>
             <h1 className="colornome-logo">Dani Rodrigues</h1>
-
+              <div>
               <i className="far fa-envelope"></i>
               <span className="email">daniheittorrodrigues@gmail.com</span>
+              </div>
+              <div>
+              <i class="fas fa-phone-alt"></i>
+              <span className="tel">(238)5951771</span>
+              </div>
+              
             <NavBAr
               li1="INTRODUÇÃO"
               li2="SOBRE"
@@ -43,7 +50,10 @@ export default class index extends React.Component {
           <div id="seccao1">
             <img className="ImgMain" src={ImgMain} alt=""></img>
             <div id="menuAp">
-              <h1>Oii!! Sou Dani</h1>
+            <PulseText text="Ola!!! sou Dani" duration={6000} iterationCount={99999}>
+                  <h1>Ola sou Dani</h1>
+            </PulseText>
+              
               <a href="https://docs.google.com/document/d/1aT_dOiy_2vBy78d8vxKJfs-Ff9KXWV3N8ZevKBAvo18/edit?usp=sharing">
                 <button className="buttao">VER CURRICULO</button>
               </a>
