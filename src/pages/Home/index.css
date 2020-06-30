@@ -20,7 +20,7 @@
 }
 #DLogoM img {
   height: 150px;
-  width: 150px;
+  width: 50%;
   margin: auto;
 }
 
@@ -139,6 +139,7 @@ button {
   margin-top: 10px;
   background-color: rgba(246, 249, 250, 0.685);
   margin-bottom: auto;
+
 }
 
 #seccion3 {

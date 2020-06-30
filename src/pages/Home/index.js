@@ -109,6 +109,7 @@ export default class index extends React.Component {
           <div id="seccion3">
             <h2 className="qse1"> CRONOLOGIA</h2>
             <div id="mainCrono">
+              
               <div id="mainCronoText">
                 <h3>Estagio na Universidade do Mindelo</h3>
                 <p className="sca">
