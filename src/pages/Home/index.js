@@ -1,5 +1,6 @@
 import React from "react";
 import "../Home/index.css";
+import Info from "../../Components/Inform/inforn"
 import NavBAr from "../../Components/NavBar/nav";
 import Secao1 from "../../Components/seccao1/sec1"
 import Secao2 from "../../Components/seccao2/sec2";
@@ -11,7 +12,6 @@ export default class index extends React.Component {
       <div id="a">
         <div id="menues">
           <div className="text-center">
-            <h1 className="colornome-logo">Dani Rodrigues</h1>
             <Info />
               
             <NavBAr
