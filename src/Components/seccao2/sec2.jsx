@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../../pages/Home/index.css";
-import "@fortawesome/fontawesome-free/css/all.css";
 
 export default class nav extends Component {
   render() {
