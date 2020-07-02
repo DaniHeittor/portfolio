@@ -45,15 +45,15 @@ export default class nav extends Component {
                 {this.props.li3}
               </Link>
             </li>
-            <li>
-              <a href={this.props.fb}>{this.props.li4}</a>
-            </li>
-            <li>
-              <a href={this.props.insta}>{this.props.li5}</a>
-            </li>
-            <li>
-              <a href={this.props.git}>{this.props.li6}</a>
-            </li>
+              <li>
+                <a href={this.props.fb}>{this.props.li4}</a>
+              </li>
+              <li>
+                <a href={this.props.insta}>{this.props.li5}</a>
+              </li>
+              <li>
+                <a href={this.props.git}>{this.props.li6}</a>
+              </li>
           </ul>
         </nav>
       </>
