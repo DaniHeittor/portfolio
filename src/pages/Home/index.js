@@ -28,8 +28,7 @@ export default class index extends React.Component {
 
             <div className="footer">
               <p>
-                <strong>DANI HEITTOR RODRIGUES</strong>, todos os direitos
-                reservados, 2020 ©
+                <strong>DANI HEITTOR RODRIGUES</strong>, todos os direitos reservados, 2020 ©
               </p>
             </div>
 

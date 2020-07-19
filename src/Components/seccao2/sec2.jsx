@@ -7,7 +7,7 @@ export default class nav extends Component {
       <>
         <h2 className="qse1">QUEM SOU EU?</h2>
             <p className="qse">
-              Eu sou um estudante em informatica na Universidade do Mindelo.
+              Sou estudante em informatica na Universidade do Mindelo.
               Adoro explorar novas tecnologias e muitas vezes impressionado com
               o progresso que nós rodeia e com deseafios que nos são colocados,
               com a cada dia a tecnoligia vai ivoluindo. Aprendendo dia apos dia
@@ -21,8 +21,7 @@ export default class nav extends Component {
                   <div id="cardInf">
                     <h3> Web </h3>
                     <p>
-                      Tenho experiência na criação de sites e extensões de cromo
-                      usando JavaScript, React, HTML, CSS
+                      Tenho experiência na criação de sites com ferramentas JavaScript, React, HTML, CSS
                     </p>
                   </div>
                 </div>
@@ -31,8 +30,7 @@ export default class nav extends Component {
                   <div id="cardInf">
                     <h3>ESTRUTURAS DE DADOS E ALGORITMOS</h3>
                     <p>
-                      Como proveniente do histórico do CS, tenho uma boa
-                      compreensão dos conceitos fundamentais
+                      Como proveniente do histórico de disciplinas ligadas ao mesmo, tenho uma boa  compreensão dos conceitos fundamentais
                     </p>
                   </div>
                 </div>
@@ -42,7 +40,7 @@ export default class nav extends Component {
                     <h3>REDES AVANCADAS</h3>
                     <p>
                       Tendo disciplinas ligas a Redes,ainda possou um
-                      certificado online da cisco-nivel3
+                      certificado online da cisco-nivel3.
                     </p>
                   </div>
                 </div>
