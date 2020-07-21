@@ -1,8 +1,8 @@
 import React from "react";
 import "../Home/index.css";
-import Info from "../../Components/Inform/inforn"
+import Info from "../../Components/Inform/inforn";
 import NavBAr from "../../Components/NavBar/nav";
-import Secao1 from "../../Components/seccao1/sec1"
+import Secao1 from "../../Components/seccao1/sec1";
 import Secao2 from "../../Components/seccao2/sec2";
 import Secao3 from "../../Components/seccao3/sec3";
 
